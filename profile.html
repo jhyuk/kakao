@@ -9,7 +9,7 @@
     <title>Profile</title>
 </head>
 <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
         <div class="header__top">
             <div class="header__column">
                 <i class="fas fa-plane"></i>
@@ -41,22 +41,26 @@
     </header>
     <main class="profile">
         <header class="profile__header">
-            <img src="images/user_icon.png" alt="">
-            <h3 class="profile__header_title">주혁</h3>
-        </header>
-        <input type="text" placeholder="akajhyuk@gmail.com">
-        <div class="profile__actions">
-            <div class="profile__action">
-                <span class="profile_action_circle">
-                    <i class="far fa-comment"></i>
-                </span>
-                <span class="profile_action_title">My Chatroom</span>
+            <div class="profile__header_container">
+                <img src="images/user_icon.png" alt="">
+                <h3 class="profile__header_title">주혁</h3>
             </div>
-            <div class="profile__action">
-                <span class="profile_action_circle">
-                    <i class="fas fa-pencil-alt"></i>
-                </span>
-                <span class="profile_action_title">Edit Profile</span>
+        </header>
+        <div class="profile__container">
+            <input type="text" placeholder="akajhyuk@gmail.com">
+            <div class="profile__actions">
+                <div class="profile__action">
+                    <span class="profile_action_circle">
+                        <i class="far fa-comment"></i>
+                    </span>
+                    <span class="profile_action_title">My Chatroom</span>
+                </div>
+                <div class="profile__action">
+                    <span class="profile_action_circle">
+                        <i class="fas fa-pencil-alt"></i>
+                    </span>
+                    <span class="profile_action_title">Edit Profile</span>
+                </div>
             </div>
         </div>
     </main>

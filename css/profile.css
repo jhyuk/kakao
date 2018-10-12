@@ -1,0 +1,67 @@
+.top-header--transparent {
+    background-color: transparent;
+}
+
+.profile .profile__header {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    top: -63px;
+    background-image: url('https://www.amarelocriativo.com.br/wp-content/uploads/2018/08/material-design-main.jpg');
+    background-position: center center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile__header .profile__header_container {
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+}
+
+.profile__header_container img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile .profile__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__container input {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.profile__container .profile__actions {
+    display: flex;
+}
+
+.profile__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.profile__action .profile_action_circle {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 50%;
+    color: #523737;
+    margin-bottom: 15px;
+}
+
+.profile__action .profile_action_title {
+    font-size: 12px;
+    font-weight: 600;
+}
