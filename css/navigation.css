@@ -19,7 +19,7 @@
 }
 
 .tab-bar .tab-bar__tab:hover {
-    transform: rotateY(1turn) scale(2);
+    transform: rotateY(1turn) scale(1.5);
 }
 
 .tab-bar .tab-bar__tab i {
