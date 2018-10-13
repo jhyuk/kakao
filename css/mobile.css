@@ -1,0 +1,10 @@
+@media screen and (min-width:540px) {
+    .bigScreenText {
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width:540px) and (max-width: 750px) {
+    
+}
